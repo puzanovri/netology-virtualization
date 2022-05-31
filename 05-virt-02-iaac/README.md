@@ -34,12 +34,15 @@
 Установить на личный компьютер:
 
 - VirtualBox
+
 Графический интерфейс VirtualBox
 Версия 6.1.34 r150636 (Qt5.6.2)
 - Vagrant
+
 C:\HashiCorp\Vagrant>vagrant -v
 Vagrant 2.2.19
 - Ansible
+
 $ ansible --version
 ansible 2.9.6
 
