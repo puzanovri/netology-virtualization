@@ -34,6 +34,12 @@ Hey, Netology
 ```
 Опубликуйте созданный форк в своем репозитории и предоставьте ответ в виде ссылки на https://hub.docker.com/username_repo.
 
+ube@lunux-pr:~$ sudo docker pull nginx:stable-alpine
+ube@lunux-pr:~$ sudo docker images
+REPOSITORY   TAG             IMAGE ID       CREATED      SIZE
+nginx        stable-alpine   4341472ddfe8   8 days ago   23.4MB
+
+
 ## Задача 2
 
 Посмотрите на сценарий ниже и ответьте на вопрос:
@@ -59,11 +65,11 @@ Hey, Netology
 
 - Шина данных на базе Apache Kafka;
 
-Физический или виртуальный сервер.
+Виртуальная машина.
 
 - Elasticsearch кластер для реализации логирования продуктивного веб-приложения - три ноды elasticsearch, два logstash и две ноды kibana;
 
-Физический или виртуальный сервер.
+Виртуальная машина или физические серверы.
 
 - Мониторинг-стек на базе Prometheus и Grafana;
 
@@ -71,19 +77,52 @@ Hey, Netology
 
 - MongoDB, как основное хранилище данных для java-приложения;
 
-Физический или виртуальный сервер.
+Физический сервер при большой нагрузке. При не большой нагрузке виртуальная машина.
 
 - Gitlab сервер для реализации CI/CD процессов и приватный (закрытый) Docker Registry.
 
-Подойдет докер контейризация.
+Виртуальная машина. Для сервисов подойдет докер контейризация.
 
 
 ## Задача 3
 
 - Запустите первый контейнер из образа ***centos*** c любым тэгом в фоновом режиме, подключив папку ```/data``` из текущей рабочей директории на хостовой машине в ```/data``` контейнера;
+
+ube@lunux-pr:~$ sudo docker run -it --rm -d --name centos -v $(pwd)/data:/data centos:latest
+Unable to find image 'centos:latest' locally
+latest: Pulling from library/centos
+a1d0c7532777: Pull complete
+Digest: sha256:a27fd8080b517143cbbbab9dfb7c8571c40d67d534bbdee55bd6c473f432b177
+Status: Downloaded newer image for centos:latest
+6977075239f6f3afc7702dfcad13101c3995faa60e5d363cb9ab42a67b2547fb
+
 - Запустите второй контейнер из образа ***debian*** в фоновом режиме, подключив папку ```/data``` из текущей рабочей директории на хостовой машине в ```/data``` контейнера;
+
+ube@lunux-pr:~$ sudo docker run -it --rm -d --name debian -v $(pwd)/data:/data debian:latest
+Unable to find image 'debian:latest' locally
+latest: Pulling from library/debian
+e756f3fdd6a3: Pull complete
+Digest: sha256:3f1d6c17773a45c97bd8f158d665c9709d7b29ed7917ac934086ad96f92e4510
+Status: Downloaded newer image for debian:latest
+ed2e679bc1fad12355b85e757e65b7533857f1ae9e2338886a1f6a70079265d3
+
 - Подключитесь к первому контейнеру с помощью ```docker exec``` и создайте текстовый файл любого содержания в ```/data```;
+
+ube@lunux-pr:~$ sudo docker exec -it centos bash
+[root@6977075239f6 /]# echo "This file is written to docker CentOS" >> /data/centos.txt
+[root@6977075239f6 /]# exit
+
 - Добавьте еще один файл в папку ```/data``` на хостовой машине;
+
+ube@lunux-pr:~$ sudo su
+root@lunux-pr:/home/ube# echo "This file is written to host" >> data/host.txt
+
 - Подключитесь во второй контейнер и отобразите листинг и содержание файлов в ```/data``` контейнера.
+
+ube@lunux-pr:~$ sudo docker exec -it debian bash
+root@ed2e679bc1fa:/# ls data/
+centos.txt  host.txt
+
+
 
 
