@@ -34,11 +34,7 @@ Hey, Netology
 ```
 Опубликуйте созданный форк в своем репозитории и предоставьте ответ в виде ссылки на https://hub.docker.com/username_repo.
 
-ube@lunux-pr:~$ sudo docker pull nginx:stable-alpine
-ube@lunux-pr:~$ sudo docker images
-REPOSITORY   TAG             IMAGE ID       CREATED      SIZE
-nginx        stable-alpine   4341472ddfe8   8 days ago   23.4MB
-
+https://hub.docker.com/r/puzanovri/nginx
 
 ## Задача 2
 
