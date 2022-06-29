@@ -37,6 +37,7 @@ Overlay Network — логическая или виртуальная сеть,
 ```
 docker node ls
 ```
+![22](https://user-images.githubusercontent.com/57503209/176501550-e21331cb-874c-4c83-a847-b1c17f4ba7b6.jpg)
 
 ## Задача 3
 
@@ -46,5 +47,6 @@ docker node ls
 ```
 docker service ls
 ```
+![33](https://user-images.githubusercontent.com/57503209/176501562-e3a1ad33-9813-4e21-ba8e-bae006761889.jpg)
 
 
