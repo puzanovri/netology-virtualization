@@ -128,10 +128,6 @@ postgres=# insert into orders VALUES (1, 'Шоколад', 10), (2, 'Принт�
 
 postgres=# insert into clients VALUES (1, 'Иванов Иван Иванович', 'USA'), (2, 'Петров Петр Петрович', 'Canada'), (3, 'Иоганн Себастьян Бах', 'Japan'), (4, 'Ронни Джеймс Дио', 'Russia'), (5, 'Ritchie Blackmore', 'Russia');
 
-postgres=# select count (*) from orders;
-
-postgres=# select count (*) from clients;
-
 ![image](https://user-images.githubusercontent.com/57503209/178735773-915c6a3d-e983-4fc1-a0ce-0de6877ebacd.png)
 
 
