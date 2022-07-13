@@ -13,12 +13,16 @@
 Приведите получившуюся команду или docker-compose манифест.
 
 $ sudo docker pull postgres:12
+
 $ sudo docker volume create vol1 vol1
+
 $ sudo docker volume create vol2 vol2
+
 $ sudo docker volume ls
 DRIVER    VOLUME NAME
 local     vol1
 local     vol2
+
 $ sudo docker run --name postgres-1 -e POSTGRES_PASSWORD=postgres -d -p 5432:5432 postgres:12
 610a724489a750ed5c8a5833fec69b8b6c432b9a17b8f2d0b9ce817eb779edc8
 
@@ -50,8 +54,11 @@ $ sudo docker run --name postgres-1 -e POSTGRES_PASSWORD=postgres -d -p 5432:543
 
 $docker exec -it postgres-1 bash
 root@610a724489a7:/#psql -U postgres
+
 postgres=# CREATE DATABASE test_db;
+
 postgres=# CREATE ROLE "test-admin-user" SUPERUSER NOCREATEDB NOCREATEROLE NOINHERIT LOGIN;
+
 postgres=# CREATE TABLE orders 
 (
 id integer, 
@@ -59,6 +66,7 @@ name text,
 price integer, 
 PRIMARY KEY (id) 
 );
+
 postgres=# CREATE TABLE clients 
 (
 	id integer PRIMARY KEY,
@@ -67,6 +75,7 @@ postgres=# CREATE TABLE clients
 	booking integer,
 	FOREIGN KEY (booking) REFERENCES orders (Id)
 );
+
 postgres=# CREATE ROLE "test-simple-user" NOSUPERUSER NOCREATEDB NOCREATEROLE NOINHERIT LOGIN;
 GRANT SELECT ON TABLE public.clients TO "test-simple-user";
 GRANT INSERT ON TABLE public.clients TO "test-simple-user";
