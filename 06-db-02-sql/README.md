@@ -125,8 +125,11 @@ GRANT DELETE ON TABLE public.orders TO "test-simple-user";
     - результаты их выполнения.
 
 postgres=# insert into orders VALUES (1, 'Шоколад', 10), (2, 'Принтер', 3000), (3, 'Книга', 500), (4, 'Монитор', 7000), (5, 'Гитара', 4000);
+
 postgres=# insert into clients VALUES (1, 'Иванов Иван Иванович', 'USA'), (2, 'Петров Петр Петрович', 'Canada'), (3, 'Иоганн Себастьян Бах', 'Japan'), (4, 'Ронни Джеймс Дио', 'Russia'), (5, 'Ritchie Blackmore', 'Russia');
+
 postgres=# select count (*) from orders;
+
 postgres=# select count (*) from clients;
 
 ![image](https://user-images.githubusercontent.com/57503209/178735773-915c6a3d-e983-4fc1-a0ce-0de6877ebacd.png)
