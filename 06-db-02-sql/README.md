@@ -149,6 +149,15 @@ postgres=# insert into clients VALUES (1, 'Иванов Иван Иванови�
  
 Подсказк - используйте директиву `UPDATE`.
 
+postgres=# update  clients set booking = 3 where id = 1;
+
+postgres=# update  clients set booking = 4 where id = 2;
+
+postgres=# update  clients set booking = 5 where id = 3;
+
+![image](https://user-images.githubusercontent.com/57503209/178736574-38c36702-f7fc-4bd8-9f78-bc474582643b.png)
+
+
 ## Задача 5
 
 Получите полную информацию по выполнению запроса выдачи всех пользователей из задачи 4 
