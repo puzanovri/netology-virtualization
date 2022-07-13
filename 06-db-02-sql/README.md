@@ -165,6 +165,8 @@ postgres=# update  clients set booking = 5 where id = 3;
 
 Приведите получившийся результат и объясните что значат полученные значения.
 
+![image](https://user-images.githubusercontent.com/57503209/178737384-f6749930-c43a-4a48-9e53-9816b8c179d9.png)
+
 ## Задача 6
 
 Создайте бэкап БД test_db и поместите его в volume, предназначенный для бэкапов (см. Задачу 1).
