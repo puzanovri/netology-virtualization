@@ -53,6 +53,7 @@ $ sudo docker run --name postgres-1 -e POSTGRES_PASSWORD=postgres -d -p 5432:543
 - список пользователей с правами над таблицами test_db
 
 $docker exec -it postgres-1 bash
+
 root@610a724489a7:/#psql -U postgres
 
 postgres=# CREATE DATABASE test_db;
