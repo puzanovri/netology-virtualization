@@ -85,6 +85,10 @@ GRANT SELECT ON TABLE public.orders TO "test-simple-user";
 GRANT INSERT ON TABLE public.orders TO "test-simple-user";
 GRANT UPDATE ON TABLE public.orders TO "test-simple-user";
 GRANT DELETE ON TABLE public.orders TO "test-simple-user";
+
+![image](https://user-images.githubusercontent.com/57503209/178731992-57080bd3-9fdb-49d7-81af-831d888b05ea.png)
+
+
 ## Задача 3
 
 Используя SQL синтаксис - наполните таблицы следующими тестовыми данными:
