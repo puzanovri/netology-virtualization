@@ -88,6 +88,11 @@ GRANT DELETE ON TABLE public.orders TO "test-simple-user";
 
 ![image](https://user-images.githubusercontent.com/57503209/178731992-57080bd3-9fdb-49d7-81af-831d888b05ea.png)
 
+![image](https://user-images.githubusercontent.com/57503209/178732572-449b393d-6b07-4aba-b5d5-2387aa7b70f7.png)
+
+![image](https://user-images.githubusercontent.com/57503209/178733945-ee12c3e2-c874-4d7f-9eb6-57653c375c8e.png)
+
+
 
 ## Задача 3
 
