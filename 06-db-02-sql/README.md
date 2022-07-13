@@ -180,6 +180,10 @@ postgres=# update  clients set booking = 5 where id = 3;
 
 Приведите список операций, который вы применяли для бэкапа данных и восстановления. 
 
+# docker exec -t pgre-docker pg_dump -U postgres test_db -f /var/lib/postgresql/data/dump_test.sql
+
+# docker exec -i pgre-docker2 psql -U postgres -d test_db -f /var/lib/postgresql/data/dump_test.sql
+
 ---
 
 ### Как cдавать задание
