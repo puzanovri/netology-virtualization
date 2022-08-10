@@ -24,7 +24,7 @@
 
 В следующих заданиях мы будем продолжать работу с данным контейнером.
 
-
+![11](https://user-images.githubusercontent.com/57503209/183901616-bd745ea6-78ff-4f0d-b6f9-87242dd2bb54.jpg)
 
 ## Задача 2
 
@@ -42,7 +42,7 @@
 Используя таблицу INFORMATION_SCHEMA.USER_ATTRIBUTES получите данные по пользователю `test` и 
 **приведите в ответе к задаче**.
 
-
+![22](https://user-images.githubusercontent.com/57503209/183901630-8540e6cf-171e-4a9c-8192-f2bb0110e192.jpg)
 
 ## Задача 3
 
@@ -55,7 +55,7 @@
 - на `MyISAM`
 - на `InnoDB`
 
-
+![33](https://user-images.githubusercontent.com/57503209/183901645-9b953fbd-af0c-41b8-9478-0b0703907c93.jpg)
 
 ## Задача 4 
 
@@ -72,4 +72,5 @@
 
 ---
 
+![44](https://user-images.githubusercontent.com/57503209/183901676-9c892893-9b2d-49ea-9836-8bf6875dad2a.jpg)
 
