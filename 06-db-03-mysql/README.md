@@ -24,78 +24,7 @@
 
 В следующих заданиях мы будем продолжать работу с данным контейнером.
 
-ube@test:/# docker pull mysql:8.0
-8.0: Pulling from library/mysql
-32c1bf40aba1: Pull complete
-3ac22f3a638d: Pull complete
-b1e7273ed05e: Pull complete
-20be45a0c6ab: Pull complete
-410a229693ff: Pull complete
-1ce71e3a9b88: Pull complete
-c93c823af05b: Pull complete
-c6752c4d09c7: Pull complete
-d7f2cfe3efcb: Pull complete
-916f32cb0394: Pull complete
-0d62a5f9a14f: Pull complete
-Digest: sha256:ce2ae3bd3e9f001435c4671cf073d1d5ae55d138b16927268474fc54ba09ed79
-
-Status: Downloaded newer image for mysql:8.0
-
-ube@test:/# docker volume create vol1_mysql
-vol1_mysql
-ube@test:/# docker run --rm --name mysql-docker -e MYSQL_ROOT_PASSWORD=mysql -ti -p 3306:3306 -v vol1_mysql:/etc/mysql/ mysql:8.0
-...
-
-
-Статус БД:
-mysql> \s
---------------
-mysql  Ver 8.0.28 for Linux on x86_64 (MySQL Community Server - GPL)
-
-Connection id:          10
-Current database:
-Current user:           root@localhost
-SSL:                    Not in use
-Current pager:          stdout
-Using outfile:          ''
-Using delimiter:        ;
-Server version:         8.0.28 MySQL Community Server - GPL
-Protocol version:       10
-Connection:             Localhost via UNIX socket
-Server characterset:    utf8mb4
-Db     characterset:    utf8mb4
-Client characterset:    latin1
-Conn.  characterset:    latin1
-UNIX socket:            /var/run/mysqld/mysqld.sock
-Binary data as:         Hexadecimal
-Uptime:                 21 min 34 sec
-
-Threads: 2  Questions: 9  Slow queries: 0  Opens: 145  Flush tables: 4  Open tables: 0  Queries per second avg: 0.005
---------------
-
-
-mysql> 
-
-Данные БД:
-mysql> use test_db;
-Database changed
-mysql> show tables;
-+-------------------+
-| Tables_in_test_db |
-+-------------------+
-| orders            |
-+-------------------+
-1 row in set (0.00 sec)
-
-mysql> select count(*) from orders where price >300;
-+----------+
-| count(*) |
-+----------+
-|        1 |
-+----------+
-1 row in set (0.01 sec)
-
-Число записей 1
+![image](https://user-images.githubusercontent.com/57503209/183894107-49e7cdcf-9520-4a1c-a00d-623761491ae0.png)
 
 ## Задача 2
 
