@@ -26,19 +26,19 @@
 
 ube@test:/# docker pull mysql:8.0
 8.0: Pulling from library/mysql
-6552179c3509: Pull complete
-d69aa66e4482: Pull complete
-3b19465b002b: Pull complete
-7b0d0cfe99a1: Pull complete
-9ccd5a5c8987: Pull complete
-2dab00d7d232: Pull complete
-64d3afdccd4a: Pull complete
-82148d50b16c: Pull complete
-8bb7d73a7d0c: Pull complete
-74778cd68a75: Pull complete
-d7e5f9309140: Pull complete
-f2e376ecd59f: Pull complete
-Digest: sha256:92d27b8222bbcf53bc42c70ca7cd1010d6c0527efc61f14980ce77c50932bef4
+32c1bf40aba1: Pull complete
+3ac22f3a638d: Pull complete
+b1e7273ed05e: Pull complete
+20be45a0c6ab: Pull complete
+410a229693ff: Pull complete
+1ce71e3a9b88: Pull complete
+c93c823af05b: Pull complete
+c6752c4d09c7: Pull complete
+d7f2cfe3efcb: Pull complete
+916f32cb0394: Pull complete
+0d62a5f9a14f: Pull complete
+Digest: sha256:ce2ae3bd3e9f001435c4671cf073d1d5ae55d138b16927268474fc54ba09ed79
+
 Status: Downloaded newer image for mysql:8.0
 
 ube@test:/# docker volume create vol1_mysql
