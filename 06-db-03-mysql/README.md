@@ -42,34 +42,7 @@
 Используя таблицу INFORMATION_SCHEMA.USER_ATTRIBUTES получите данные по пользователю `test` и 
 **приведите в ответе к задаче**.
 
-mysql> CREATE USER 'test'@'localhost' IDENTIFIED BY 'test-pass';
-Query OK, 0 rows affected (0.19 sec)
-
-mysql> 
-mysql> ALTER USER 'test'@'localhost' ATTRIBUTE '{"fname":"James", "lname":"Pretty"}';
-Query OK, 0 rows affected (0.16 sec)
-
-mysql> 
-mysql> ALTER USER 'test'@'localhost' 
-    -> IDENTIFIED BY 'test-pass' 
-    -> WITH
-    -> MAX_QUERIES_PER_HOUR 100
-    -> PASSWORD EXPIRE INTERVAL 180 DAY
-    -> FAILED_LOGIN_ATTEMPTS 3 PASSWORD_LOCK_TIME 2;
-Query OK, 0 rows affected (0.14 sec)
-
-mysql> 
-mysql> GRANT Select ON test_db.orders TO 'test'@'localhost';
-Query OK, 0 rows affected, 1 warning (0.15 sec)
-
-mysql> 
-mysql> SELECT * FROM INFORMATION_SCHEMA.USER_ATTRIBUTES WHERE USER='test';
-+------+-----------+---------------------------------------+
-| USER | HOST      | ATTRIBUTE                             |
-+------+-----------+---------------------------------------+
-| test | localhost | {"fname": "James", "lname": "Pretty"} |
-+------+-----------+---------------------------------------+
-1 row in set (0.02 sec)
+![22](https://user-images.githubusercontent.com/57503209/183894480-b9b6f038-f8fc-41e7-909d-a3eb6ef6b59c.jpg)
 
 ## Задача 3
 
