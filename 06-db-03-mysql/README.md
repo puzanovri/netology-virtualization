@@ -72,27 +72,5 @@
 
 ---
 
-[mysqld]
-pid-file        = /var/run/mysqld/mysqld.pid
-socket          = /var/run/mysqld/mysqld.sock
-datadir         = /var/lib/mysql
-secure-file-priv= NULL
+![44](https://user-images.githubusercontent.com/57503209/183894963-b674083d-9c8e-47a9-8a4f-7459aa1829cb.jpg)
 
-#Set IO Speed
-# 0 - скорость
-# 1 - сохранность
-# 2 - универсальный параметр
-innodb_flush_log_at_trx_commit = 0 
-
-#Set compression
-# Barracuda - формат файла с сжатием
-innodb_file_format=Barracuda
-
-#Set buffer
-innodb_log_buffer_size	= 1M
-
-#Set Cache size
-key_buffer_size = 640М
-
-#Set log size
-max_binlog_size	= 100M
