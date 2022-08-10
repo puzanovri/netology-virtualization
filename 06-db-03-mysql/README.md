@@ -55,36 +55,7 @@
 - на `MyISAM`
 - на `InnoDB`
 
-mysql> SELECT TABLE_NAME,ENGINE,ROW_FORMAT,TABLE_ROWS,DATA_LENGTH,INDEX_LENGTH FROM information_schema.TABLES WHERE table_name = 'orders' and  TABLE_SCHEMA = 'test_db' ORDER BY ENGINE asc;
-+------------+--------+------------+------------+-------------+--------------+
-| TABLE_NAME | ENGINE | ROW_FORMAT | TABLE_ROWS | DATA_LENGTH | INDEX_LENGTH |
-+------------+--------+------------+------------+-------------+--------------+
-| orders     | InnoDB | Dynamic    |          5 |       16384 |            0 |
-+------------+--------+------------+------------+-------------+--------------+
-1 row in set (0.05 sec)
-
-
-
-mysql> ALTER TABLE orders ENGINE = MyISAM;
-Query OK, 5 rows affected (1.17 sec)
-Records: 5  Duplicates: 0  Warnings: 0
-
-mysql> ALTER TABLE orders ENGINE = InnoDB;
-Query OK, 5 rows affected (1.37 sec)
-Records: 5  Duplicates: 0  Warnings: 0
-
-mysql> show profiles;
-+----------+------------+------------------------------------+
-| Query_ID | Duration   | Query                              |
-+----------+------------+------------------------------------+
-|        1 | 0.00018497 | show prifiles                      |
-|        2 | 1.17795100 | ALTER TABLE orders ENGINE = MyISAM |
-|        3 | 1.36470927 | ALTER TABLE orders ENGINE = InnoDB |
-+----------+------------+------------------------------------+
-3 rows in set, 1 warning (0.01 sec)
-
-Продолжительность переключения на  MyISAM: 1,17
-Продолжительность переключения на InnoDB: 1,36
+![33](https://user-images.githubusercontent.com/57503209/183894767-8c5e20db-89ac-4343-bb87-860de6314c86.jpg)
 
 ## Задача 4 
 
