@@ -4,16 +4,36 @@
 
 Используя docker поднимите инстанс PostgreSQL (версию 13). Данные БД сохраните в volume.
 
+![1](https://user-images.githubusercontent.com/57503209/185491375-312292a7-6f29-4e3d-ad12-b7d0de82f6a4.jpg)
+
+![2](https://user-images.githubusercontent.com/57503209/185492360-4b758312-1405-4a7b-aec6-daf397d055b0.jpg)
+
 Подключитесь к БД PostgreSQL используя `psql`.
+
+![3](https://user-images.githubusercontent.com/57503209/185491920-47cdf633-835f-4f12-846c-52beb0894d10.jpg)
 
 Воспользуйтесь командой `\?` для вывода подсказки по имеющимся в `psql` управляющим командам.
 
 **Найдите и приведите** управляющие команды для:
 - вывода списка БД
+
+![4](https://user-images.githubusercontent.com/57503209/185492086-b1430460-3b5d-4afb-a5e6-7cb8098b2df3.jpg)
+
 - подключения к БД
+
+![5](https://user-images.githubusercontent.com/57503209/185492118-663a05d3-ce36-4a8c-a2b8-30f403dd257c.jpg)
+
 - вывода списка таблиц
+
+![6](https://user-images.githubusercontent.com/57503209/185492214-4cac98ef-add9-44ab-87f6-cdc51d9571fb.jpg)
+
 - вывода описания содержимого таблиц
+
+![7](https://user-images.githubusercontent.com/57503209/185492228-f63c8401-ae26-4e03-8c65-0ac92e36b1fa.jpg)
+
 - выхода из psql
+
+![8](https://user-images.githubusercontent.com/57503209/185492247-3f8d957c-d74f-40da-954f-6c8ab19b24d6.jpg)
 
 ## Задача 2
 
