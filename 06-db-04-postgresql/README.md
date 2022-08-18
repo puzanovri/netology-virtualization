@@ -68,11 +68,11 @@
 
 Используя утилиту `pg_dump` создайте бекап БД `test_database`.
 
-   export PGPASSWORD=netology && pg_dump -h localhost -U postgres test_database > /tmp/test_database_backup.sql
+root@d86da0511156:/# export PGPASSWORD=netology && pg_dump -h localhost -U postgres test_database > /tmp/test_database_backup.sql
 
 Как бы вы доработали бэкап-файл, чтобы добавить уникальность значения столбца `title` для таблиц `test_database`?
 
-   title character varying(80) NOT NULL UNIQUE,
+title character varying(80) NOT NULL UNIQUE,
 
 ---
 
