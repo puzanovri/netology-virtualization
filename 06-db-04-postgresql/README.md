@@ -39,6 +39,8 @@
 
 Используя `psql` создайте БД `test_database`.
 
+![21](https://user-images.githubusercontent.com/57503209/185495392-c83f8dde-a2bb-4762-821a-6ebda1fc3faf.jpg)
+
 Изучите [бэкап БД](https://github.com/netology-code/virt-homeworks/tree/master/06-db-04-postgresql/test_data).
 
 Восстановите бэкап БД в `test_database`.
