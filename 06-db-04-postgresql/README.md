@@ -39,7 +39,7 @@
 
 Используя `psql` создайте БД `test_database`.
 
-![21](https://user-images.githubusercontent.com/57503209/185495392-c83f8dde-a2bb-4762-821a-6ebda1fc3faf.jpg)
+![21](https://user-images.githubusercontent.com/57503209/185495627-cafbe61c-2225-4f6f-830b-ca40ef040f64.jpg)
 
 Изучите [бэкап БД](https://github.com/netology-code/virt-homeworks/tree/master/06-db-04-postgresql/test_data).
 
