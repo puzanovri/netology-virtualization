@@ -108,12 +108,14 @@ https://hub.docker.com/repository/docker/podkovka/devops-elasticsearch
 
 Удалите индекс `test` и создайте индекс `test-2`. **Приведите в ответе** список индексов.
 
+![35](https://user-images.githubusercontent.com/57503209/186516780-71bdff0e-090e-4089-ab04-a4a772136cc1.jpg)
+
 [Восстановите](https://www.elastic.co/guide/en/elasticsearch/reference/current/snapshots-restore-snapshot.html) состояние
 кластера `elasticsearch` из `snapshot`, созданного ранее. 
 
 **Приведите в ответе** запрос к API восстановления и итоговый список индексов.
 
-![35](https://user-images.githubusercontent.com/57503209/186516484-655b2d74-feeb-4407-8dda-ff457ac94279.jpg)
+![36](https://user-images.githubusercontent.com/57503209/186516773-213ac4ad-a8d7-46e4-b331-9f48a2b0c18e.jpg)
 
 Подсказки:
 - возможно вам понадобится доработать `elasticsearch.yml` в части директивы `path.repo` и перезапустить `elasticsearch`
