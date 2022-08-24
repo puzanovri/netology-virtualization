@@ -113,7 +113,7 @@ https://hub.docker.com/repository/docker/podkovka/devops-elasticsearch
 
 **Приведите в ответе** запрос к API восстановления и итоговый список индексов.
 
-![35](https://user-images.githubusercontent.com/57503209/186516202-c4a26a58-2b30-41dc-91d5-3de4ad9ad623.jpg)
+![35](https://user-images.githubusercontent.com/57503209/186516484-655b2d74-feeb-4407-8dda-ff457ac94279.jpg)
 
 Подсказки:
 - возможно вам понадобится доработать `elasticsearch.yml` в части директивы `path.repo` и перезапустить `elasticsearch`
