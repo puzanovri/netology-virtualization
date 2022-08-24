@@ -97,14 +97,14 @@ https://hub.docker.com/repository/docker/podkovka/devops-elasticsearch
 
 Создайте индекс `test` с 0 реплик и 1 шардом и **приведите в ответе** список индексов.
 
+![33](https://user-images.githubusercontent.com/57503209/186515267-0887fdab-2167-4602-96db-5f098fc623a4.jpg)
+
 [Создайте `snapshot`](https://www.elastic.co/guide/en/elasticsearch/reference/current/snapshots-take-snapshot.html) 
 состояния кластера `elasticsearch`.
 
 **Приведите в ответе** список файлов в директории со `snapshot`ами.
 
 Удалите индекс `test` и создайте индекс `test-2`. **Приведите в ответе** список индексов.
-
-![image](https://user-images.githubusercontent.com/57503209/186514986-9388a542-5f4e-414b-bd4c-2ea24f37ba18.png)
 
 [Восстановите](https://www.elastic.co/guide/en/elasticsearch/reference/current/snapshots-restore-snapshot.html) состояние
 кластера `elasticsearch` из `snapshot`, созданного ранее. 
