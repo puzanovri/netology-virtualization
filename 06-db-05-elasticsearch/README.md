@@ -55,13 +55,23 @@ https://hub.docker.com/repository/docker/podkovka/devops-elasticsearch
 | ind-2 | 1 | 2 |
 | ind-3 | 2 | 4 |
 
+![21](https://user-images.githubusercontent.com/57503209/186513674-01a46ffe-b30e-483d-922e-cfffadf11409.jpg)
+
 Получите список индексов и их статусов, используя API и **приведите в ответе** на задание.
+
+![22](https://user-images.githubusercontent.com/57503209/186513691-370865b6-ed03-4899-8723-a8541138b8c9.jpg)
 
 Получите состояние кластера `elasticsearch`, используя API.
 
+![23](https://user-images.githubusercontent.com/57503209/186513709-89feadc6-f49f-4fa5-b297-f9549e4e6a05.jpg)
+
 Как вы думаете, почему часть индексов и кластер находится в состоянии yellow?
 
+Первичный шард и реплика не могут находиться на одном узле, если копия не назначена. Таким образом, один узел не может размещать копии.
+
 Удалите все индексы.
+
+![24](https://user-images.githubusercontent.com/57503209/186513744-f5ff6c81-8ca2-449e-b496-4dc7fd98829e.jpg)
 
 **Важно**
 
