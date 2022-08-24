@@ -86,8 +86,12 @@ https://hub.docker.com/repository/docker/podkovka/devops-elasticsearch
 
 Создайте директорию `{путь до корневой директории с elasticsearch в образе}/snapshots`.
 
+![31](https://user-images.githubusercontent.com/57503209/186514446-e815be25-6fc7-473c-a0e0-ade6a113d285.jpg)
+
 Используя API [зарегистрируйте](https://www.elastic.co/guide/en/elasticsearch/reference/current/snapshots-register-repository.html#snapshots-register-repository) 
 данную директорию как `snapshot repository` c именем `netology_backup`.
+
+![32](https://user-images.githubusercontent.com/57503209/186514521-39618feb-ac2e-460b-9d68-ba1bb835a29b.jpg)
 
 **Приведите в ответе** запрос API и результат вызова API для создания репозитория.
 
@@ -99,6 +103,8 @@ https://hub.docker.com/repository/docker/podkovka/devops-elasticsearch
 **Приведите в ответе** список файлов в директории со `snapshot`ами.
 
 Удалите индекс `test` и создайте индекс `test-2`. **Приведите в ответе** список индексов.
+
+![image](https://user-images.githubusercontent.com/57503209/186514986-9388a542-5f4e-414b-bd4c-2ea24f37ba18.png)
 
 [Восстановите](https://www.elastic.co/guide/en/elasticsearch/reference/current/snapshots-restore-snapshot.html) состояние
 кластера `elasticsearch` из `snapshot`, созданного ранее. 
