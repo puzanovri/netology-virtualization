@@ -104,6 +104,8 @@ https://hub.docker.com/repository/docker/podkovka/devops-elasticsearch
 
 **Приведите в ответе** список файлов в директории со `snapshot`ами.
 
+![34](https://user-images.githubusercontent.com/57503209/186516034-eb8137be-1100-4d2a-916d-514601001c13.jpg)
+
 Удалите индекс `test` и создайте индекс `test-2`. **Приведите в ответе** список индексов.
 
 [Восстановите](https://www.elastic.co/guide/en/elasticsearch/reference/current/snapshots-restore-snapshot.html) состояние
