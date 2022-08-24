@@ -20,8 +20,16 @@
 
 В ответе приведите:
 - текст Dockerfile манифеста
+
+![11](https://user-images.githubusercontent.com/57503209/186512050-a54eb212-261d-4e7a-b1c4-f2a71ab166d4.jpg)
+
 - ссылку на образ в репозитории dockerhub
+
+https://hub.docker.com/repository/docker/podkovka/devops-elasticsearch
+
 - ответ `elasticsearch` на запрос пути `/` в json виде
+
+![4](https://user-images.githubusercontent.com/57503209/186512219-26a32ed9-3820-4158-af1e-e335ce05d38a.jpg)
 
 Подсказки:
 - возможно вам понадобится установка пакета perl-Digest-SHA для корректной работы пакета shasum
