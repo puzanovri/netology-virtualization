@@ -65,7 +65,7 @@ Terraform, Ansible, Packer, Docker, Kubernetes
 Установите терраформ при помощи менеджера пакетов используемого в вашей операционной системе.
 В виде результата этой задачи приложите вывод команды `terraform --version`.
 
-![1](https://user-images.githubusercontent.com/57503209/187287637-f1bea6c1-d248-44b9-86e5-1515ac95491c.jpg)
+![1](https://user-images.githubusercontent.com/57503209/187301076-2002a889-4608-438a-b9fd-1a471db28cb9.jpg)
 
 ## Задача 3. Поддержка легаси кода. 
 
@@ -76,6 +76,9 @@ Terraform, Ansible, Packer, Docker, Kubernetes
 
 В виде результата этой задачи приложите вывод `--version` двух версий терраформа доступных на вашем компьютере 
 или виртуальной машине.
+
+![2](https://user-images.githubusercontent.com/57503209/187301114-020b89c2-7074-465f-b02c-3e84fe7447a2.jpg)
+
 
 ---
 
