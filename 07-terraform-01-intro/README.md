@@ -80,6 +80,7 @@ Terraform, Ansible, Packer, Docker, Kubernetes
 ![2](https://user-images.githubusercontent.com/57503209/187301114-020b89c2-7074-465f-b02c-3e84fe7447a2.jpg)
 
 
+
 ---
 
 ### Как cдавать задание
