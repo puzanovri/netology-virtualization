@@ -72,7 +72,7 @@ Packer
 
 2. Ссылку на репозиторий с исходной конфигурацией терраформа.  
  
- [Files]([https://github.com/Bora2k3/devops-netology/tree/main/terraform/07-terraform-02-syntax](https://github.com/puzanovri/netology-virtualization/tree/main/07-terraform-02-syntax/Files))
+ [Files](https://github.com/puzanovri/netology-virtualization/tree/main/07-terraform-02-syntax/Files)
  
 ---
 
