@@ -35,6 +35,8 @@
 
 ---
 
+[Files](https://github.com/puzanovri/netology-virtualization/tree/main/09-ci-01-intro/Files)
+
 ### Как оформить ДЗ?
 
 Выполненное домашнее задание пришлите ссылкой на .md-файл в вашем репозитории.
