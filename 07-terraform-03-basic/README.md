@@ -33,7 +33,7 @@ dynamodb.
 
 * Вывод команды `terraform plan` для воркспейса `prod`.  
 
-[Files](https://github.com/puzanovri/netology-virtualization/tree/main/07-terraform-02-syntax/Files)
+[Files](https://github.com/puzanovri/netology-virtualization/tree/main/07-terraform-03-basic/Files)
 
 ---
 
