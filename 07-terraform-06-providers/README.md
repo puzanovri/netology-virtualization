@@ -28,7 +28,7 @@
     
     * Какому регулярному выражению должно подчиняться имя? 
     
- ```bash
+ ``` bash
 		if fifoQueue {
 			re = regexp.MustCompile(`^[a-zA-Z0-9_-]{1,75}\.fifo$`)
 		} else {
