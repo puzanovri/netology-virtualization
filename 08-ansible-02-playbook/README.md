@@ -16,6 +16,9 @@
 7. Запустите playbook на `prod.yml` окружении с флагом `--diff`. Убедитесь, что изменения на системе произведены.
 8. Повторно запустите playbook с флагом `--diff` и убедитесь, что playbook идемпотентен.
 9. Подготовьте README.md файл по своему playbook. В нём должно быть описано: что делает playbook, какие у него есть параметры и теги.
+
+[Readme](https://github.com/puzanovri/netology-virtualization/blob/main/08-ansible-02-playbook/playbook/README.md)
+
 10. Готовый playbook выложите в свой репозиторий, в ответ предоставьте ссылку на него.
 
 [Playbook](https://github.com/puzanovri/netology-virtualization/tree/main/08-ansible-02-playbook/playbook)
