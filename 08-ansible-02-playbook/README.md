@@ -18,7 +18,7 @@
 9. Подготовьте README.md файл по своему playbook. В нём должно быть описано: что делает playbook, какие у него есть параметры и теги.
 10. Готовый playbook выложите в свой репозиторий, в ответ предоставьте ссылку на него.
 
-[Решение](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+[Playbook](https://github.com/puzanovri/netology-virtualization/tree/main/08-ansible-02-playbook/playbook)
 
 ## Необязательная часть
 
